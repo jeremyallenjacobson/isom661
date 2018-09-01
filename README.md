@@ -1,2 +1,2 @@
-# isom661
+# ISOM 661
 Summary notes from ISOM 661: Technology Bootcamp.
