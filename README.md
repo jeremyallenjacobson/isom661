@@ -7,7 +7,7 @@ I have shared an AMI as a 'Private Image' with every student from ISOM 661. It i
 * Once your instance is running, in its description, copy the Public DNS (IPv4). Let's suppose it is
 `ec2-54-173-90-61.compute-1.amazonaws.com`
 for the remainder of this walk-through.
-* Enter https://ec2-54-173-99-67.compute-1.amazonaws.com:8787 in your browser. The RStudio sign in page should appear. Enter
+* Append :8787 to the end of the Public DNS of your instance and enter the address in your browser address bar, for instance, enter https://ec2-54-173-99-67.compute-1.amazonaws.com:8787 You should then see the RStudio sign in page. Enter
 user: ruser
 password: Ch@ngeMe1
 
