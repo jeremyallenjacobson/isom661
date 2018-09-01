@@ -8,7 +8,9 @@ I have shared an AMI as a 'Private Image' with every student from ISOM 661. It i
 `ec2-54-173-90-61.compute-1.amazonaws.com`
 for the remainder of this walk-through.
 * Append :8787 to the end of the Public DNS of your instance and enter the address in your browser address bar, for instance, enter https://ec2-54-173-99-67.compute-1.amazonaws.com:8787 You should then see the RStudio sign in page. Enter
+
 user: ruser
+
 password: Ch@ngeMe1
 
 * Once RStudio opens, go to Tools, then Shell... At the command line, enter `passwd`. You will then be prompted to enter `(current) UNIX password:`. Enter Ch@ngeMe1. Then, you will be prompted for `New password:` and here you will enter whatever password you want to use for signing in to Rstudio on your instance. You should see output similar to what appears below.  
